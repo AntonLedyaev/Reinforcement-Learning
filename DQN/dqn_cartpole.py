@@ -62,7 +62,8 @@ class DQNAgent:
             return random.randrange(self.action_space_size)
         else:
             return np.argmax(self.model.predict(state))
-
+        
+    # проходим по значениям в памяти, вычисляем предикт для текущего состояния и следующего 
     def replay(self):
         if len(self.memory) < self.train_start:
             return
