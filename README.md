@@ -35,7 +35,7 @@ Q-learning это не связанный с политикой без моде�
 
 Мы можем переписать это уравнение в форме Q-value:
 
-![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/bellman 2.png)
+![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/bellman2.png)
 
 Оптимальное значение Q, обозначенное как Q*, может быть выражено как:
 
