@@ -52,4 +52,40 @@ Q-learning это не связанный с политикой без моде�
 * START_EPSILON_DECAYING = 1
 * END_EPSILON_DECAY = EPISODES // 2
 
+### Результаты:
+
+* min - минимальный score
+* avg - средний
+* max - максимальный
+
+![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/plotq.png)
+
+
+## DQN
+
+Алгоритм DQN использует нейронную сеть для оценки значений Q-функции Беллмана. На вход сети подаются текущие кадры игрового поля, а выходом - соответствующее значение Q для каждого возможного действия. Нейросеть обучается так же, как и в случае q-learning, обновляя значения Q-функции Беллмана. 
+
+![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/dqn_bellma.png)
+
+Здесь:
+* φ эквивалентно состоянию s
+* θ обозначает параметры в нейронной сети
+
+### Гиперпараметры:
+* EPISODES = 1000
+* GAMMA = 0.95
+* EPSILON = 1.0
+* EPSILON_MIN = 0.001
+* EPSILON_DECAY = 0.999
+* batch_size = 64
+* train_start = 1000
+
+### Результаты: 
+
+
+![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/plot.png)
+
+![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/cartpole_example.gif)
+
+
 
