@@ -58,7 +58,7 @@ Q-learning это не связанный с политикой без моде�
 * avg - средний
 * max - максимальный
 
-![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/plotq.png)
+![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/plotq.jpg)
 
 
 ## DQN
@@ -83,7 +83,7 @@ Q-learning это не связанный с политикой без моде�
 ### Результаты: 
 
 
-![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/plot.png)
+![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/plot.jpg)
 
 ![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/cartpole_example.gif)
 
