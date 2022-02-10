@@ -27,3 +27,20 @@
 * позиция тележки вышла из допустимого диапазона [-4.8, 4.8];
 * длина эпизода превышает 500;
 
+
+## Q-learning
+Q-learning это не связанный с политикой без модельный алгоритм ОП, основанный на хорошо известном уравнении Беллмана:
+
+![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/bellman1.png)
+
+Мы можем переписать это уравнение в форме Q-value:
+
+![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/bellman 2.png)
+
+Оптимальное значение Q, обозначенное как Q*, может быть выражено как:
+
+![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/bellman.png)
+
+Цель состоит в том, чтобы максимизировать Q-значение.
+
+
