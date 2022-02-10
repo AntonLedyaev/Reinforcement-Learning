@@ -2,4 +2,4 @@
 
 ## Задача стабилизации подвижного маятника на тележке.
 
-![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/image.png)
+![Image alt](https://github.com/AntonLedyaev/Reinforcement-Learning/raw/main/img/cartpole.gif)
